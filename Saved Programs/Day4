@@ -1,0 +1,101 @@
+#  File: Day.py
+
+#  Description: Computes the day of the week for a given date
+
+#  Student Name: Joseph Cunningham
+
+#  Student UT EID: jsc2539
+
+#  Course Name: CS 303E
+
+#  Unique Number: 54510
+
+#  Date Created: 09/11/09
+
+#  Date Last Modified: 09/11/09
+
+def main():
+
+  # Prompt the user to enter a day
+  def day_input():   
+    day = input ('Enter the day: ')
+    if (day < 1) or (day > 31):
+      day_input()
+    else:
+      print 'Day =', day
+    b = day
+  day_input()
+
+  # Prompt the user to enter a month
+  def month_input():
+    month = input ('Enter the month: ')
+    if (month < 1) or (month > 12):
+      month_input()
+    else:
+      print 'Month =', month
+    a = month
+  month_input()
+
+  # Prompt the user to enter a year
+  def year_input():
+    year = input ('Enter the year: ')
+    if (year < 1900) or (year > 2100):
+      year_input()
+    else:
+      print 'Year =', year
+    d = (year / 100)
+    print 'c =', c
+    c = (year % 100)
+    print 'd =', d
+  year_input()
+  
+  
+
+        
+
+  #Convert the month to a numerical value
+  def month_variables():
+    march = 1
+    print 'march =', march
+    april = 2
+    print 'april =', april
+    may = 3
+    print 'may =', may
+    june = 4
+    print 'june =', june
+    july = 5
+    print 'july =', july
+    august = 6
+    print 'august =', august
+    september = 7
+    print 'september =', september
+    october = 8
+    print 'october =', october
+    november = 9
+    print 'november =', november
+    december = 10
+    print 'december =', december
+    january = 11
+    print 'january =', january
+    february = 12
+    print 'february =', february
+
+  #Compute the quantities
+  #def compute_quantities():
+  # w = (13 * a - 1) / 5
+  # print 'w =', w
+  # x = c / 4
+  # print 'x =', x
+  # y = d / 4
+  # print 'y =', y
+  # z = w + x + y + b + c - 2 * d
+  # print 'z =', z
+  # r = z % 7
+  # print 'r =', r
+  # r = (r + 7) % 7
+    
+    
+
+main()
+
+ 

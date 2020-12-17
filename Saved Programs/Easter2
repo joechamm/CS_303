@@ -1,0 +1,15 @@
+def main ():
+  # Prompt the user to enter a year
+  y = input ("Enter a year: ")
+  print "y =", y
+
+  # Compute Easter Sunday for that year
+  a = y % 19
+  print "a =", a
+  b = y / 100
+  print "b = ", b
+  c = y % 100
+  print "c = ", c
+
+main()
+  

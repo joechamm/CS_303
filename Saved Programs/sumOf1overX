@@ -1,0 +1,12 @@
+def main():
+    
+  #Define variable oldGuess and newGuess and evaluate the difference
+  count = 1.0
+  inv = 0
+  while (inv < 20):
+    inv = inv + (1.0 / count)
+    count = count + 1.0
+    print 'inv: ', inv
+
+main()
+  

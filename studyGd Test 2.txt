@@ -1,0 +1,363 @@
+Study Guide for CS 303E Test 2 (Fall 2009) on 28 Oct 2009
+
+* Loops - while and for
+
+* Functions - user defined and built-in
+
+* Math Functions
+
+* Strings and String Functions
+
+* Reading and Writing Text Files
+
+* Lists and List Functions
+
+* There will be some questions similar to Quiz 2. You will
+  be responsible for all the functions listed in the Study
+  Guide for Quiz 2.
+
+* Here are some additional String problems that you want to
+  consider. In all cases you will be asked to write a function.
+
+  - Write a function that accepts a String as input parameter
+  and returns True if it is palindromic and False otherwise
+
+  - Write a function that accepts two Strings as input parameters
+  and returns True if they are anagrams and False otherwise
+
+  - Write a function that accepts a String and a rotation parameter
+  and rotates the String by that amount and returns it. For example,
+  given a String "computer" and a rotation parameter of 2, it will
+  return "ercomput".
+
+* Here are some file manipulation problems to look at.
+
+  - Write a function that accepts two Strings - the name of an input
+  file and a target String. It will return the number of occurences
+  of the target String in the file.
+
+  - Write a function that accepts the name of an input file and a list
+  of forbidden words. If any one of those forbidden words exists in the
+  file it will return False and True otherwise.
+
+* In addition to the list problems given in the Study Guide for Quiz 3,
+  do look at the following problems.
+
+  - Write a function that accepts a 1-D list as input parameter and
+  returns a 1-D list that is an exact copy of the input list
+
+  - Write a function that accepts a 2-D list as input parameter and
+  returns a 2-D list that is an exact copy of the input list
+
+  - Write a function that accepts a 2-D list as input parameter and
+  prints the sum of each row on separate lines
+
+  - Write a function that accepts a 2-D list as input parameter and
+  prints the sum of each column on separate lines
+
+  - Write a function that accepts a 2-D list as input parameter and
+  prints the sum of each diagonal. Assume that the 2-D list is square.
+
+  - Write a function that accepts an input parameter n (that is a
+  positive integer) and returns a 2-D list containing all the numbers
+  from 1 through n (inclusive), their squares, and their cubes. For
+  example if n was 5 your function will return the following 2-D list:
+  [[1, 1, 1], [2, 4, 8], [3, 9, 27], [4, 16, 64], [5, 25, 125]]
+
+  - Write a function that accepts a 1-D list of integers and returns 
+  True if all the numbers are in ascending order and False otherwise.
+  (It will return True if all the elements are the same.)
+
+
+
+Study Guide for Quiz 3 (23 October 2009)
+
+For this quiz you will be asked two questions that will be
+a subset of the following problems. Assume that we are working
+solely with lists of whole numbers.
+
+1) Sum the elements in a 1-D and 2-D list. 
+
+2) Find the maximum and minimum in a 1-D and 2-D list.
+
+3) Find the second highest or second lowest number in a 1-D 
+   or 2-D list.
+
+4) Remove all duplicate elements in a 1-D list. 
+
+5) Given two 1-D lists, determine if they have exactly the same 
+   elements and in the same order.
+
+6) Given two 1-D lists determine if they have the same elements
+   but not necessarily in the same order. 
+
+7) Given two 1-D lists of the same length, determine the scalar
+   product of them. 
+
+8) Given a 1-D list obtain another list that has the cummulative
+   sum of the elements of the first one.
+
+9) Sum two 2-D lists having the same number of rows and the same
+   number of columns.
+
+Study Guide for Quiz 2 (9 October 2009)
+
+There will be 30 short questions on this quiz. The quiz will cover
+material that we did after the first test. The questions will be of
+two types - either you will be asked to write a short line of code
+or you will be given code and asked what the output will be.
+
+* if-elif-else statement
+
+* for loops
+
+* built-in functions in Python
+
+abs(x) 		bin(x) 			bool(x)
+
+chr(i) 		eval (expression) 	float(x) 
+
+hex(x) 		int(x) 			long(x)
+
+oct(x) 		ord(c) 			range(start, stop, incr)
+
+round(x) 	str()
+
+
+* functions and constants in the math library
+
+math.pi		math.pow(x, y)		math.sqrt(x)
+
+math.hypot(x, y)
+
+
+* functions in the random library
+
+random.randint()	random.random()		random.uniform(a, b)
+
+
+* string manipulations and functions in the string library
+
+string creation		string indexing		concatenation & repetition
+
+string slicing		capitalize()		center (width)
+
+count(sub)		endswith(suffix)	find(sub)
+
+isalnum()		isalpha()		isdigit()
+
+islower()		isspace()		isupper()
+
+join(seq)		ljust(width)		lower()
+
+lstrip()		replace(old, new)	rfind(sub)
+
+rstrip()		split([sep])		startswith(prefix)
+
+strip()			swapcase()		upper()
+
+
+* string formating
+
+format-string % (val1, .., valn)
+
+% [flag][width][precision] type
+
+flag: 0, -, +
+type: d, f, c, s
+
+Study Guide for Quiz 2 (9 October 2009)
+
+There will be 30 short questions on this quiz. The quiz will cover
+material that we did after the first test. The questions will be of
+two types - either you will be asked to write a short line of code
+or you will be given code and asked what the output will be.
+
+* if-elif-else statement
+
+* for loops
+
+* built-in functions in Python
+
+abs(x) 		bin(x) 			bool(x)
+
+chr(i) 		eval (expression) 	float(x) 
+
+hex(x) 		int(x) 			long(x)
+
+oct(x) 		ord(c) 			range(start, stop, incr)
+
+round(x) 	str()
+
+
+* functions and constants in the math library
+
+math.pi		math.pow(x, y)		math.sqrt(x)
+
+math.hypot(x, y)
+
+
+* functions in the random library
+
+random.randint()	random.random()		random.uniform(a, b)
+
+
+* string manipulations and functions in the string library
+
+string creation		string indexing		concatenation & repetition
+
+string slicing		capitalize()		center (width)
+
+count(sub)		endswith(suffix)	find(sub)
+
+isalnum()		isalpha()		isdigit()
+
+islower()		isspace()		isupper()
+
+join(seq)		ljust(width)		lower()
+
+lstrip()		replace(old, new)	rfind(sub)
+
+rstrip()		split([sep])		startswith(prefix)
+
+strip()			swapcase()		upper()
+
+
+* string formating
+
+format-string % (val1, .., valn)
+
+% [flag][width][precision] type
+
+flag: 0, -, +
+type: d, f, c, s
+
+Lecture Notes on 26 October 2009
+
+# This function makes an exact copy of a 1-D list
+
+def copyList (a):
+  b = []
+  for item in a:
+    b.append (item)
+  return b
+
+  # Alternative solution
+  b = []
+  for i in range (len(a)):
+    b.append(a[i])
+  return b
+
+
+# This function makes an exact copy of a 2-D list
+
+def copyList (a):
+  b = []
+  for row in a:
+    temp = []
+    for col in row:
+      temp.append (col)
+    b.append (temp)
+  return b
+
+  # Alternative solution
+  b = []
+  for i in range (len(a)):
+    temp = []
+    for j in range (a[i])):
+      temp.append(a[i][j])
+    b.append (temp)
+  return b
+Lecture Notes on 14 Oct 2009
+
+# This function returns the sum of the elements in a 1-D list
+
+def sumList (a):
+  sum = 0
+  for item in a:
+    sum = sum + item
+  return sum
+
+  # Alternative solution
+  sum = 0
+  for i in range (len(a)):
+    sum = sum + a[i]
+  return sum
+
+
+# This function returns the sum of the elements in a 2-D list
+
+def sumList (a):
+  sum = 0
+  for row in a:
+    for col in row:
+      sum = sum + col
+  return sum
+
+  # Alternative solution
+  sum = 0
+  for i in range (len(a)):
+    for j in range (len(a[i])):
+      sum = sum + a[i][j]
+  return sum
+
+
+# This function returns the maximum of the elements in a 1-D list
+
+def getMax (a):
+  max = a[0]
+  for i in range (1, len(a)):
+    if (a[i] > max):
+      max = a[i]
+  return max
+
+
+# This function returns the maximum of the elements in a 2-D list
+
+def getMax (a):
+  max = a[0][0]
+  for i in range (len(a)):
+    for j in range (len(a[i])):
+      if (a[i][j] > max):
+        max = a[i][j]
+  return max
+
+Lecture Notes on 07 Octover 2009
+
+# This program opens a file called "humpty" and
+# make a copy of it.
+def main():
+  inFile = open ("humpty", "r")
+  outFile = open ("humpty.copy", "w")
+
+  for line in inFile:
+    line = line.rstrip("\n")  # strips the end of line character
+    print line
+    outFile.write (line + "\n")
+
+  inFile.close()
+  outFile.close()
+
+main()
+
+
+
+
+# This function sums the rows of a 2-D list and prints them out
+
+def sumRow (a):
+  for row in a:
+    sum = 0
+    for item in row:
+      sum = sum + item
+    print sum
+
+  # Alternative solution
+  for i in range (len(a)):
+    sum = 0
+    for j in range (len(a[i])):
+      sum = sum + a[i][j]
+    print sum
+
+
+

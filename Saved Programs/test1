@@ -1,0 +1,7 @@
+def main ():
+  x = 10
+  for q in range (1, 10):
+    for i in range (1, x):
+      print i
+    x = x - 1
+main()

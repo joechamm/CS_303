@@ -1,0 +1,78 @@
+#  File: Day.py
+
+#  Description: Computes the day of the week for a given date
+
+#  Student Name: Joseph Cunningham
+
+#  Student UT EID: jsc2539
+
+#  Course Name: CS 303E
+
+#  Unique Number: 54510
+
+#  Date Created: 09/11/09
+
+#  Date Last Modified: 09/11/09
+
+def main():
+
+  # Prompt the user to enter a day
+  day = input ('Enter the day: ')
+  if (day < 1) or (day > 31):
+    day = input ('Enter the day: ')
+  else:
+    print 'Day =', day
+  b = day
+
+  # Prompt the user to enter a month
+  month = input ('Enter the month: ')
+  if (month < 1) or (month > 12):
+    month = input ('Enter the month: ')
+  else:
+    print 'Month =', month
+  a = month - 2
+
+  # Prompt the user to enter a year
+  year = input ('Enter the year: ')
+  if (year < 1900) or (year > 2100):
+    year = input ('Enter the year: ')
+  else:
+    print 'Year =', year
+
+  c = (year % 100)
+  print 'c =', c
+  d = (year / 100)
+  print 'd =', d
+  
+ 
+  w = (13 * a - 1) / 5
+  print 'w =', w
+  x = c / 4
+  print 'x =', x
+  y = d / 4
+  print 'y =', y
+  z = w + x + y + b + c - 2 * d
+  print 'z =', z
+  r = z % 7
+  print 'r =', r
+  r = (r + 7) % 7
+
+  if (r == 0):
+    print '%s / %s / %s is a Sunday' % (month, day, year)
+  elif (r == 1):
+    print '%s / %s / %s is a Monday' % (month, day, year)
+  elif (r == 2):
+    print '%s / %s / %s is a Tuesday' % (month, day, year)
+  elif (r == 3):
+    print '%s / %s / %s is a Wednesday' % (month, day, year)
+  elif (r == 4):
+    print '%s / %s / %s is a Thursday' % (month, day, year)
+  elif (r == 5):
+    print '%s / %s / %s is a Friday' % (month, day, year)
+  elif (r == 6):
+    print '%s / %s / %s is a Satuday' % (month, day, year)
+
+
+main()
+
+ 
